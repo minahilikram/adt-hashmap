@@ -1,0 +1,17 @@
+INFORMATION:
+    The program has a menu of options to choose from to test it. No input validation.
+
+TESTS:                                                                  RESULTS:                                   FIX:
+    1) If destroyTable function is called more than once        ->  crashes                                 ->  check for table
+    2) If any function is sent a bad pionter                    ->  seg faults                              ->  keep track of pointers
+    3) Checking for memory leaks using Valgrind                 ->  no leaks found                          ->  no fix needed
+    4) If characters are put into the input menu                ->  crashes                                 ->  check for characters
+    
+EXTRA NOTES:
+    1) I did not have createTable as an option in main because then I would have to keep track of more than one table.
+    2) Takes in any input without truncating because it saves it as a character array.
+    3) Update function would have to replace the word with another, but it would then become impossible to find again as the key would be different.
+    4) Print table function prints the whole table, an easier way to print or another print function could also have been to print the list corresponsing to the particular word. It would make it easier to see things.
+    
+REFERENCES:
+    - "http://www.cse.yorku.ca/~oz/hash.html" this reference was used to write the hashFunction. Somewhat changed from the original but I found that this worked best out of the other 2 in terms of having the data scattered.

@@ -1,0 +1,19 @@
+INFORMATION:
+    - no input validation in terms of while loop.
+    - prompts user if input entered is not letters from A-Z or a-z.
+    - asks to either search or quit.
+    - in search: jumbled letters can be entered which are then used to form anagrams and tested to see if they are in the dictionary file.
+
+TESTS:                                                         RESULTS:                             FIX:
+    1) If destroyList of destroyTable are called twice    ->    crashes                     ->    check for empty
+    2) If any function is sent a bad pionter              ->    seg faults                  ->    keep track of pointers
+    3) Checking for memory leaks using Valgrind           ->    no leaks found              ->    no fix needed
+
+EXTRA NOTES:
+    1) I did not have createTable as an option in main because then I would have to keep track of more than one table.
+
+TABLE SIZE:
+    I chose 50, 000 as my table size because when I had a table size of 10, 000 I found that my lists were too full. When I entered a size of 50, 000, the list became more readable and each list had less than 20 items. I didn't notice a difference in speed when these two table sizes were tested.
+    
+REFERENCES:
+    - "http://www.daniweb.com/software-development/c/code/216770/permutations-of-a-string-using-recursion" I used this website to help me come up with my permutation function. 
