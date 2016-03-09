@@ -23,5 +23,5 @@ The program does not accept more than 10 characters, characters are truncated if
     
 ## References
 
-[Here](http://www.cse.yorku.ca/~oz/hash.html) is a reference for the algorithm to write the hashFunction; it has been somewhat changed. [Here](http://www.daniweb.com/software-development/c/code/216770/permutations-of-a-string-using-recursion) is this website to help me come up with my permutation function.
+[Here](http://www.cse.yorku.ca/~oz/hash.html) is a reference for the algorithm to write the hashFunction; it has been somewhat changed. [Here](http://www.daniweb.com/software-development/c/code/216770/permutations-of-a-string-using-recursion) is this website I used to help me come up with my permutation function.
 
