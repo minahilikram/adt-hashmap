@@ -1,4 +1,3 @@
-************
 # adt-hashmap
 
 [Hashmap](https://en.wikipedia.org/wiki/Hash_table) a character based implementation on top of a linked list ADT on C Algorithms for applications.
